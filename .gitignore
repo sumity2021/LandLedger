@@ -1,2 +1,4 @@
 /package-lock.json
-/node_modules
+/front-end/node_modules
+/front-end/.env
+/front-end/package-lock.json
