@@ -1,0 +1,40 @@
+.navbar{
+    padding: 1rem 4rem;
+    background: white !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item{
+    margin-left: 2rem;
+}
+
+.nav-link {
+    color: #2d3436 !important;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.nav-link:hover {
+    color: #0061ff !important;
+}
+
+.active{
+    color: #0061ff !important;
+    font-weight: 600;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 400px){
+    .navbar{
+        padding: 0.5rem 1rem;
+    }
+}

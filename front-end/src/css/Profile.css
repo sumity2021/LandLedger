@@ -1,0 +1,47 @@
+.profile-main-div{
+    margin-top: 3rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-main-div .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.profile-main-div label {
+    color: #2d3436;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.profile-main-div button{
+    margin-top: 1.8rem;
+}
+
+.form-control {
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 0.8rem;
+    transition: border-color 0.2s;
+}
+
+.form-control:focus {
+    border-color: #0061ff;
+    box-shadow: none;
+}
+
+.select-gender {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    outline: none !important;
+    transition: border-color 0.2s;
+}
+
+.select-gender:focus {
+    border-color: #0061ff;
+}
+

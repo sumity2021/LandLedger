@@ -1,0 +1,32 @@
+{
+  "name": "land-registry",
+  "version": "1.0.0",
+  "description": "Blockchain-based Land Registration and transfer of entitlement system where the land ownership and all its details are stored in the Blockchain with zero chances of forgery in ownership.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@mui/material": "^5.13.7",
+    "@truffle/hdwallet-provider": "^2.1.0",
+    "create-react-app": "^5.0.0",
+    "dotenv": "^16.1.4",
+    "react-router-dom": "^6.14.1",
+    "web3": "^1.7.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "chai": "^4.3.8",
+    "eslint": "^8.50.0",
+    "mocha": "^10.2.0",
+    "prettier": "^3.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "truffle test",
+    "eject": "react-scripts eject",
+    "migrate": "truffle migrate",
+    "compile": "truffle compile"
+  }
+}
